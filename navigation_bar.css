@@ -65,3 +65,33 @@ body {
     margin: 0em;
     z-index: 20;
 }
+
+/* links to not be underlined */
+a {
+    text-decoration: none;
+    color: rgb(24, 24, 24);
+    transition: color 0.2s;
+}
+
+a:hover {
+    color: black;
+    font-family: 'Quicksand-SemiBold';
+    font-weight: 600;
+}
+
+a:active {
+    color: rgb(61, 61, 61);
+}
+
+/* organize the lists */
+ul {
+    list-style: none;
+    width: 10.7em;
+}
+
+/* organize the uh text in the lists */
+li {
+    padding-right: 2em;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
